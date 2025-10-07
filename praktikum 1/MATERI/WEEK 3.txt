@@ -1,0 +1,34 @@
+PAB
+
+week 3
+reacts hook adalah alat bantu atau function/method, 
+yang membantu kita agar dapat mengakses beberapa fitur,
+yang ada pada functional component yang sebelumnya hanya bisa di implementasikan di calss comopnent.
+karakterisitik dari hooks adalah penggunaan use, seperti useeffect dll.
+
+perbedaan dari class dan fucntion component adalah pada clas terdapat class dan harus punya minimal 1 method,
+contoh keywordnya dalah class dan method nya adalah render()
+dan pada function hanya derdapat function2 pada gaya bahasa code nya dan mengunakan gaya coding function arrow,
+gaya coding yang dimaksud adalah code yang digunakan langsung function tanpa penggunaan class.
+
+pada class component terdapat beberapa fitur seperti state dan dapat menggunakannya secara natural, 
+state adalah bentuk dasar dan jka ingin merubah menggunakan setstate.
+tapi pada function component kita dapat menggunakan fitur yang hanya ada pada class component dengan memanfaatkan hooks,
+seperti fitur state kita dapat menggunakan usestate().
+
+contoh function component adalah 
+conts [isHungry, setisHungry] = useState (true):
+dimana isHungry adalah nama,setishungry adalah function,true adalah value, 
+ishungry dan setisHungry adalah array dari usestate.
+
+Ternary operator adalah bentuk coding if else dalam 1 baris.
+{}=jason object
+
+useState adalah sebuah hook untuk di gunakan di state functional dan fungsi dasarnya dalah menyimpan nilai,
+memiliki sidfat jika value berubah maka component yang ada akan re rendered.
+format nya adalah sebgai berikut:
+const [<state_name>, <function_for_update>]=useState(<initial_value>);
+
+
+REACT FORM PROCESSING
+
